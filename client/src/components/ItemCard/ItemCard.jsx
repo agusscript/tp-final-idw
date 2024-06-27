@@ -1,6 +1,6 @@
 import './ItemCard.css';
 
-function ItemCard({ idAccommodation, title, description, pricePerNight, bedrooms, bathrooms, status, accommodationType, sourceImg }) {
+function ItemCard({ title, description, pricePerNight, bedrooms, bathrooms, status, sourceImg }) {
   return (
     <div className="item-card">
       <div className={`badge ${status !== 'Reservado' && 'free'}`}>{status}</div>
@@ -13,7 +13,6 @@ function ItemCard({ idAccommodation, title, description, pricePerNight, bedrooms
           <p className='item-bedrooms'>Habitaciones: {bedrooms}</p>
           <p className='item-bathrooms'>Baños: {bathrooms}</p>
         </div>
-        <p className='item-type'>Tipo de alojamiento: {accommodationType}</p>
         <p>{description}</p>
         <div className="item-bottom-details">
           <div className="item-price"><small>${Number(pricePerNight) + 50}</small>${Number(pricePerNight)}</div>

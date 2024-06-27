@@ -7,7 +7,6 @@ function ModalDeleteAlojamiento({ show, item, setShow, setUpdateItems }) {
         method: 'DELETE'
       });
       window.alert("Alojamiento eliminado con exito");
-      console.log("delete", item);
     } catch (error) {
       window.alert("No se pudo eliminar el Alojamiento", error);
       throw new (error);
