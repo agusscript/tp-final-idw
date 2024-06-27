@@ -1,0 +1,103 @@
+.modal-create {
+  box-sizing: border-box;
+  z-index: 1;
+  position: fixed;
+  padding: 1rem;
+  width: 100%;
+  min-height: 250px;
+  max-width: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #303030;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 0.6rem;
+  overflow: auto;
+  max-height: calc(100vh - 40px);
+}
+
+.modal-create::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.modal-create::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.modal-create::-webkit-scrollbar-thumb {
+  background-color: #969696;
+}
+
+.modal-create h2,
+p {
+  margin: 0.4rem;
+}
+
+.modal-create button {
+  padding: 0.48rem 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+#confirm-create {
+  margin-top: 1rem;
+  background-color: #006600;
+}
+
+.create-form label {
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.create-form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(151, 151, 151, 0.37);
+  border-radius: 0.4rem;
+  font-family: "Alata", serif;
+  font-size: 1rem;
+  padding: 0 1rem;
+  outline: none;
+}
+
+#cancel-create {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #cc0000;
+}
+
+.create-form select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(151, 151, 151, 0.37);
+  border-radius: 0.4rem;
+  font-family: "Alata", serif;
+  font-size: 1rem;
+  outline: none;
+}
+
+.coordinates-container {
+  display: flex;
+  gap: 1rem;
+}
