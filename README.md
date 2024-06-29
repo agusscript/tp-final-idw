@@ -32,6 +32,6 @@ http://localhost:5173/
 
 - Se cambió la configuración de la base de datos en el archivo src/dbConfig.js (si desea correr en local debe poner las credenciales de su base de datos)
 
-### Tambien dejo el siguiente video de demostración mostrando la web y la funcionalidad del crud:
+### Video de demostración mostrando la web y la funcionalidad del crud interactuando con la api y la base de datos:
 
-- https://drive.google.com/file/d/1qf01VNiJDaVgFd7Hz8mPQnuHY7x14sEj/view?usp=drive_link
+- https://drive.google.com/file/d/14uXXEGuIfnib9fi4NEPBJE9K1uanpx43/view?usp=drive_link
